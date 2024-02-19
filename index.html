@@ -205,9 +205,9 @@
                         <!-- set count section start here  -->
                         <div>
 
-                            <button type="button" class="flex gap-14 text-[#1DD100] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-xl px-4 py-2 text-center bg-gradient-to-r from-[#1DD10066] to-[#1cd10033]">
+                            <button type="button" class="flex gap-4 text-[#1DD100] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold rounded-lg text-xl px-4 py-2 text-center bg-gradient-to-r from-[#1DD10066] to-[#1cd10033]">
                                 <img src="assets/images/seat-green.png" alt="">
-                                40 Seats left
+                                <p><span id="stock">40</span> Seats left</p>
                             </button>
 
                         </div>
@@ -285,8 +285,8 @@
 
             <h2 class="font-bold text-2xl text-[#030712] border-b-2 pb-4 border-dashed">Select Your Seat</h2>
             <div class="flex justify-between border-b-2 pb-4 pt-8 border-dashed">
-                <h4 class="font-bold text-xl text-[#03071299] flex gap-14"> <img src="assets/images/seat-gray.png" alt="">Available</h4>
-                <h3 class="font-bold text-xl text-[#030712] flex gap-14"> <img src="assets/images/seat-green-filled.png" alt="">Selected</h3>
+                <h4 class="font-bold text-xl text-[#03071299] flex gap-6"> <img src="assets/images/seat-gray.png" alt="">Available</h4>
+                <h3 class="font-bold text-xl text-[#030712] flex gap-6"> <img src="assets/images/seat-green-filled.png" alt="">Selected</h3>
             </div>
             <div class="flex mt-6 justify-end items-end">
                 <img class="bg-[#0307121A] px-9 py-3 rounded-xl"  src="assets/images/steering-wheel.svg" alt="">
@@ -303,8 +303,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>A</h2>
-                    <p id="A1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A1</p>
-                    <p id="A2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A2</p>
+                    <button id="A1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A1</button>
+                    <button id="A2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A2</button>
                 </div>
                 <!-- first row end here  -->
 
@@ -312,8 +312,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>B</h2>
-                    <p id="B1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B1</p>
-                    <p id="B2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B2</p>
+                    <button id="B1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B1</button>
+                    <button id="B2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B2</button>
                 </div>
 
                 <!-- second row end here  -->
@@ -322,8 +322,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>C</h2>
-                    <p id="C1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C1</p>
-                    <p id="C2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C2</p>
+                    <button id="C1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C1</button>
+                    <button id="C2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C2</button>
                 </div>
 
                 <!-- third row end here  -->
@@ -332,8 +332,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>D</h2>
-                    <p id="D1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D1</p>
-                    <p id="D2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D2</p>
+                    <button id="D1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D1</button>
+                    <button id="D2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D2</button>
                 </div>
                 <!-- fourth row end here  -->
 
@@ -341,8 +341,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>E</h2>
-                    <p id="E1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E1</p>
-                    <p id="E2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E2</p>
+                    <button id="E1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E1</button>
+                    <button id="E2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E2</button>
                 </div>
                 <!-- fifth row end here  -->
 
@@ -350,8 +350,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>F</h2>
-                    <p id="F1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F1</p>
-                    <p id="F2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F2</p>
+                    <button id="F1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F1</button>
+                    <button id="F2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F2</button>
                 </div>
                 <!-- sixth row end here  -->
 
@@ -359,8 +359,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>G</h2>
-                    <p id="G1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G1</p>
-                    <p id="G2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G2</p>
+                    <button id="G1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G1</button>
+                    <button id="G2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G2</button>
                 </div>
                 <!-- Seventh row end here  -->
 
@@ -368,8 +368,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>H</h2>
-                    <p id="H1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H1</p>
-                    <p id="H2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H2</p>
+                    <button id="H1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H1</button>
+                    <button id="H2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H2</button>
                 </div>
                 <!-- Eighth row end here  -->
 
@@ -377,8 +377,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>I</h2>
-                    <p id="I1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I1</p>
-                    <p id="I2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I2</p>
+                    <button id="I1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I1</button>
+                    <button id="I2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I2</button>
                 </div>
                 <!-- Ninth row end here  -->
 
@@ -386,8 +386,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     <h2>J</h2>
-                    <p id="J1"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J1</p>
-                    <p id="J2"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J2</p>
+                    <button id="J1" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J1</button>
+                    <button id="J2" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J2</button>
                 </div>
                 <!-- tenth row end here  -->
             </div>
@@ -400,8 +400,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="A3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A3</p>
-                    <p id="A4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A4</p>
+                    <button id="A3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A3</button>
+                    <button id="A4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">A4</button>
                 </div>
                 <!-- first row end here  -->
 
@@ -409,8 +409,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="B3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B3</p>
-                    <p id="B4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B4</p>
+                    <button id="B3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B3</button>
+                    <button id="B4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">B4</button>
                 </div>
 
                 <!-- second row end here  -->
@@ -419,8 +419,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="C3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C3</p>
-                    <p id="C4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C4</p>
+                    <button id="C3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C3</button>
+                    <button id="C4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">C4</button>
                 </div>
 
                 <!-- third row end here  -->
@@ -429,8 +429,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="D3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D3</p>
-                    <p id="D4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D4</p>
+                    <button id="D3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D3</button>
+                    <button id="D4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">D4</button>
                 </div>
                 <!-- fourth row end here  -->
 
@@ -438,8 +438,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="E3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E3</p>
-                    <p id="E4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E4</p>
+                    <button id="E3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E3</button>
+                    <button id="E4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">E4</button>
                 </div>
                 <!-- fifth row end here  -->
 
@@ -447,8 +447,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="F3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F3</p>
-                    <p id="F4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F4</p>
+                    <button id="F3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F3</button>
+                    <button id="F4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">F4</button>
                 </div>
                 <!-- sixth row end here  -->
 
@@ -456,8 +456,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="G3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G3</p>
-                    <p id="G4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G4</p>
+                    <button id="G3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G3</button>
+                    <button id="G4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">G4</button>
                 </div>
                 <!-- Seventh row end here  -->
 
@@ -465,8 +465,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="H3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H3</p>
-                    <p id="H4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H4</p>
+                    <button id="H3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H3</button>
+                    <button id="H4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">H4</button>
                 </div>
                 <!-- Eighth row end here  -->
 
@@ -474,8 +474,8 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="I3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I3</p>
-                    <p id="I4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I4</p>
+                    <button id="I3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I3</button>
+                    <button id="I4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">I4</button>
                 </div>
                 <!-- Ninth row end here  -->
 
@@ -483,12 +483,17 @@
 
                 <div class="flex gap-14 items-center justify-evenly">
                     
-                    <p id="J3"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J3</p>
-                    <p id="J4"  class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J4</p>
+                    <button id="J3" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J3</button>
+                    <button id="J4" class=" seats bg-[#F7F8F8] px-9 py-3 rounded-xl inline-block">J4</button>
                 </div>
                 <!-- tenth row end here  -->
             </div>
             <!-- right side sit end here  -->
+
+            <!-- modal start here -->
+
+            
+            <!-- modal end here -->
 
             </section>
 
@@ -509,35 +514,33 @@
                         <!-- set count section here  -->
 
                         <div class="flex justify-between border-b-2 pb-4 border-dashed">
-                            <h4 class="font-medium text-xl text-[#030712] relative">Seat <span class=" bg-[#1DD100] text-white px-4 rounded-lg absolute left-12">0</span></h4>
+                            <h4 class="font-medium text-xl text-[#030712] relative">Seat <span class=" bg-[#1DD100] text-white px-4 rounded-lg absolute left-12" id="numberOfSelection">0</span></h4>
                             <h3 class="font-medium text-xl text-[#030712] ">Class</h3>
                             <h3 class="font-medium text-xl text-[#030712] ">Price</h3>
                         </div>
-                        <div class="flex justify-between pb-4 pt-6">
-                            <h4 class=" text-xl text-[#03071299] ">C2</h4>
-                            <h3 class=" text-xl text-[#03071299] ">Economy</h3>
-                            <h3 class=" text-xl text-[#03071299] ">550</h3>
-                        </div>
-                        <div class="flex justify-between border-b-2 pb-4 ">
-                            <h4 class=" text-xl text-[#03071299] ">C2</h4>
-                            <h3 class=" text-xl text-[#03071299] ">Economy</h3>
-                            <h3 class=" text-xl text-[#03071299] ">550</h3>
-                        </div>
+
+                        <section id="parent" class="border-b-2 pb-4 hidden">
+                        
+                    </section>
 
                         <!-- Total Price count section here  -->
 
+                        <section id="priceContainer">
+
                         <div class="flex justify-between pb-4 pt-8">
                             <h4 class=" text-xl font-medium text-[#030712] ">Total Price</h4>
-                            <h3 class=" text-xl font-medium text-[#030712] ">BDT <span>0</span></h3>
+                            <h3 class=" text-xl font-medium text-[#030712] ">BDT <span id="totalPrice">0</span></h3>
                         </div>
+
+                        </section>
 
                         <div>
                             
-                                <form>   
+                                <form id="discountField">   
                                     <div class="relative">
                                         
-                                        <input type="text" id="search" class="block w-full p-4  text-sm  rounded-lg bg-white  placeholder-[#03071266] text-black focus:ring-blue-500 focus:border-blue-500 outline-none border-none" placeholder="Have any coupon?" required />
-                                        <button type="submit" class="text-white absolute end-2.5 bottom-2.5 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 bg-[#1DD100] hover:bg-blue-700 focus:ring-blue-800">Search</button>
+                                        <input type="text" id="coupon" class="block w-full p-4  text-sm  rounded-lg bg-white  placeholder-[#03071266] text-black focus:ring-blue-500 focus:border-blue-500 outline-none border-none" placeholder="Have any coupon?" required />
+                                        <button disabled id="apply-btn" type="submit" class="text-white absolute end-2.5 bottom-2.5 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-4 py-2 bg-[#1DD100] disabled:bg-[#1cd10053] hover:bg-blue-700 focus:ring-blue-800">Apply</button>
                                     </div>
                                 </form>
 
@@ -547,7 +550,7 @@
 
                         <div class="flex justify-between pb-4 pt-8">
                             <h4 class=" text-xl font-medium text-[#030712] ">Grand Total</h4>
-                            <h3 class=" text-xl font-medium text-[#030712] ">BDT <span>0</span></h3>
+                            <h3 class=" text-xl font-medium text-[#030712] ">BDT <span id="grandTotal">0</span></h3>
                         </div>
                     
                     </div>
@@ -562,15 +565,15 @@
                                 <input type="text" id="email" class="shadow-sm bg-gray-50 border  text-sm rounded-lg focus:ring-blue-500  block w-full py-4  border-gray-600 placeholder-gray-400 text-[#030712]  focus:border-blue-500 shadow-sm-light" placeholder="Enter your name" required />
                                 </div>
                                 <div class="mb-5 w-full">
-                                <label for="email" class="block mb-2 text-sm font-medium text-[#030712]">Phone Number*</label>
+                                <label for="phone" class="block mb-2 text-sm font-medium text-[#030712]">Phone Number*</label>
                                 <input type="number" id="number" class="shadow-sm bg-gray-50 border  text-sm rounded-lg focus:ring-blue-500  block w-full py-4  border-gray-600 placeholder-gray-400 text-[#030712]  focus:border-blue-500 shadow-sm-light" placeholder="Enter your phone number" required />
                                 </div>
                                 <div class="mb-5">
-                                <label for="password" class="block mb-2 text-sm font-medium text-gray-900 ">Email ID</label>
+                                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Email ID</label>
                                 <input type="email" id="password" class="shadow-sm bg-gray-50 border text-sm rounded-lg block w-full py-4  border-gray-600 placeholder-gray-400 text-[#030712] focus:ring-blue-500 focus:border-blue-500 shadow-sm-light" placeholder="Enter your email id" required />
                                 </div>
 
-                                <button type="submit" class="text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-6 text-center bg-[#1DD100] w-full ">Next</button>
+                                <button disabled id="next" type="submit" class="text-white  hover:bg-blue-800 focus:ring-4 focus:outline-none  font-medium rounded-lg text-sm px-5 py-6 text-center bg-[#1DD100] w-full disabled:bg-[#1cd10053] ">Next</button>
                                 
                                 <div class="flex justify-center gap-12 mt-5">
                                 
