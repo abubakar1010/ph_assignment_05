@@ -148,3 +148,13 @@
 
 
     })
+
+    // modal start here
+
+    const nextButton = getElementBySelector("#next")
+
+    nextButton.addEventListener("click", function(){
+
+        getElementBySelector("#static-modal").classList.remove("hidden")
+        console.log(getElementBySelector("#popup-modal"));
+    })
