@@ -112,8 +112,6 @@
 
         const userInput = getElementBySelector("#coupon").value
 
-        console.log(price, userInput);
-
         let discount = 0;
 
         
@@ -156,5 +154,12 @@
     nextButton.addEventListener("click", function(){
 
         getElementBySelector("#static-modal").classList.remove("hidden")
-        console.log(getElementBySelector("#popup-modal"));
+        
+    })
+
+    // hide modal 
+
+    getElementBySelector("#hideModal").addEventListener("click", function(){
+
+        getElementBySelector("#static-modal").classList.add("hidden")
     })
