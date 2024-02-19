@@ -13,17 +13,19 @@
 
         seat.addEventListener('click', function(e){
 
-
-            const getClickedButton = document.getElementById(e.target.id)
-
-            getClickedButton.setAttribute("disabled","")
-
             countSets++
 
             if( countSets > 4){
                 alert("Oops! It seems you've reached the ticket limit. You can select up to four tickets per transaction.")
                 return
             }
+
+
+            const getClickedButton = document.getElementById(e.target.id)
+
+            getClickedButton.setAttribute("disabled","")
+
+            
 
             //set style by clicked
 
@@ -140,6 +142,8 @@
    parent.appendChild(p)
 
 
+   }else{
+    alert("Uh-oh! It seems the coupon code you entered is incorrect. Please double-check and try again.If you need assistance, feel free to contact our support team. We're here to help!")
    }
    
    p.innerHTML = `<div class="flex justify-between pt-3">
