@@ -18,6 +18,13 @@
 
             getClickedButton.setAttribute("disabled","")
 
+            countSets++
+
+            if( countSets > 4){
+                alert("Oops! It seems you've reached the ticket limit. You can select up to four tickets per transaction.")
+                return
+            }
+
             //set style by clicked
 
             getClickedButton.style.backgroundColor = "#1DD100"
@@ -25,7 +32,8 @@
 
             //count sets
 
-            countSets++
+            
+
 
             const seats = getElementBySelector("#numberOfSelection")
 
@@ -66,9 +74,7 @@
 
                 const applyButton = getElementBySelector("#apply-btn")
                 applyButton.removeAttribute("disabled")
-                getSeats.forEach( (seat) => {
-                    seat.setAttribute("disabled","")
-                })
+                
                 
 
             }
@@ -127,7 +133,7 @@
    parent.appendChild(p)
 
 
-   }else if( userInput === "Couple20"){
+   }else if( userInput === "Couple 20"){
 
        discount = ((parseInt(price.innerText) * 20 )) / 100
    getElementBySelector("#discountField").classList.add("hidden")
