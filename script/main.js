@@ -15,6 +15,8 @@
 
             countSets++
 
+            //check seat limitation 
+
             if( countSets > 4){
                 alert("Oops! It seems you've reached the ticket limit. You can select up to four tickets per transaction.")
                 return
