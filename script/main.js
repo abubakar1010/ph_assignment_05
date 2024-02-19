@@ -66,6 +66,10 @@
 
                 const applyButton = getElementBySelector("#apply-btn")
                 applyButton.removeAttribute("disabled")
+                getSeats.forEach( (seat) => {
+                    seat.setAttribute("disabled","")
+                })
+                
 
             }
 
